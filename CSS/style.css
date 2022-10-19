@@ -1,0 +1,81 @@
+body {
+  background-color: #F2F5EA;
+}
+.navigation-bar {
+  width: 75%;  
+  height: 80px; 
+  padding: 8px;
+  background-color: #F2F5EA; 
+  list-style-type: none; 
+  text-align: center;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-top: 15px;  
+}
+.navigation-bar > a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+  height: 150px;        
+  line-height: 150px;  
+  color: black;  
+  text-decoration: none;
+}
+.heroImg {
+  padding: 50px;
+  line-height: 1.8;
+}
+img {
+    float: right;
+    padding: 8px;
+    height: 325px;
+    width: 130px;
+}
+.heroHead {
+  text-align: left;
+}
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+.resumeButton {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.mySkills {
+  background-color: #303A52;
+  color:#F2F5EA;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+div {
+  width: 18%;
+  padding: 0px;
+}
+.footerNav {
+  margin: auto; 
+  display: inline-block;
+  list-style-type: none;
+}
+.footerList {
+  display: inline-block;
+}
+.footerList a {
+  display: inline-block;
+  margin-left: 250px;     
+  color: black;  
+  text-decoration: none;
+}
