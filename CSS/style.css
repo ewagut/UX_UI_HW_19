@@ -43,6 +43,22 @@ img {
   width: 500px;
   margin: 0 auto;
 }
+#popup-container {
+  position: absolute;
+  background-color: #F2F5EA;
+  left: 25%;
+  top: 10%;
+  z-index: 11111;
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  display: none;
+}
+#close-btn {
+  float: left;
+  cursor: pointer;
+}
 .resumeButton {
   text-align: center;
 }
